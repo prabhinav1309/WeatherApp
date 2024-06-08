@@ -1,0 +1,47 @@
+/* Dark mode styles */
+.dark-mode {
+  background-color: #000000 !important; /* Add !important to override other styles */
+  color: #ffffff !important;
+}
+
+.dark-mode .navbar-brand {
+    color: #ffffff;
+}
+
+.dark-mode .navbar {
+  background-color: #000000 !important; /* Change navbar background color to black */
+  color: #ffffff !important;
+}
+
+.dark-mode .navbar .nav-link {
+  color: #ffffff !important; /* Change navbar link color to white */
+}
+
+.dark-mode .navbar .navbar-toggler-icon {
+  filter: invert(1) !important; /* Invert color of navbar toggler icon */
+}
+
+.dark-mode .btn-outline-dark {
+  color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+
+.dark-mode .btn-outline-dark:hover {
+  color: #000000 !important;
+  background-color: #ffffff !important;
+}
+
+.dark-mode td {
+  background-color: black;
+  color: #ffffff !important; /* Text color for table cells */
+}
+
+.dark-mode th {
+  background-color: black;
+  color: #ffffff !important; /* Text color for table headers */
+}
+
+.dark-mode .card {
+  background-color: #333333 !important; /* Change card background color to black */
+  color: #ffffff !important; /* Change card text color to white */
+}
